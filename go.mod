@@ -2,10 +2,12 @@ module github.com/yudaiyan/go-sqlite-tool-server
 
 go 1.22.5
 
-require github.com/panjf2000/gnet/v2 v2.5.7
+require (
+	github.com/go-errors/errors v1.5.1
+	github.com/panjf2000/gnet/v2 v2.5.7
+)
 
 require (
-	github.com/go-errors/errors v1.5.1 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	golang.org/x/text v0.14.0 // indirect
